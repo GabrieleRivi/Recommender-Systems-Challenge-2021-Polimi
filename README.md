@@ -17,4 +17,8 @@ The final model can be found here ([RPR_hybrid_SLIMElasticnet_Ials](/tuning/Hybr
 ## Methodology
 
 Most of the models come from the Course-Repository ([src](/src)), and our aim was to find the best scoring model by tuning and combining them with the
-techniques seen during the course. For the tuning, along with the Bayesian Search for the hyperparameters, a K-Fold tuner was implemented.
+techniques seen during the course. For the tuning, along with the Bayesian Search for the hyperparameters, a K-Fold tuner was implemented ([KFOLD](/src/Evaluation/K_FoldEvaluator.py)).
+
+### Important Notes
+The repository is a bit messy, representing my mental state while working on it, being quarantined for more than 20 days during Christmas' Holidays and 
+Winter Break ☃️
