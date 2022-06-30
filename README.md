@@ -9,3 +9,12 @@ The datasets include around 6.2M interactions, 13k users, 18k items (TV shows) a
 213 channels, 113 subgenres and 358k events (episode ids).
 
 Leaderboard final position - 25/72
+
+## Final Model
+
+The final model used for the submission, scoring 0.48259 against 0.50966 of the first position, was an hybrid obtained merging two models, RPR Beta and Slim-ElasticNet, then making a linear combination of the scores of this hybrid model with an IALS matrix factorization Recommender.
+
+## Methodology
+
+Most of the models come from the Course-Repository ([src](/src)), and our aim was to find the best scoring model by tuning and combining them with the
+techniques seen during the course. For the tuning, along with the Bayesian Search for the hyperparameters, a K-Fold tuner was implemented.
