@@ -1,0 +1,993 @@
+SearchBayesianSkopt: Config 0 Exception. Config: {'epochs': 31, 'learning_rate': 0.0003566384438827878, 'batch_size': 505, 'l2_reg': 0.004068191958730683} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'epochs': 19, 'learning_rate': 0.0008709976954375665, 'batch_size': 110, 'l2_reg': 0.009678840064033547} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 2 Exception. Config: {'epochs': 60, 'learning_rate': 0.0005659517425845041, 'batch_size': 577, 'l2_reg': 0.009780856322854515} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 3 Exception. Config: {'epochs': 44, 'learning_rate': 0.0004682968175141834, 'batch_size': 892, 'l2_reg': 0.005588167057849322} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 4 Exception. Config: {'epochs': 93, 'learning_rate': 0.000446506796571685, 'batch_size': 938, 'l2_reg': 0.0020155706989418293} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 5 Exception. Config: {'epochs': 97, 'learning_rate': 0.0007371815969870154, 'batch_size': 816, 'l2_reg': 0.009915126901261536} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 6 Exception. Config: {'epochs': 79, 'learning_rate': 0.0004276859146618127, 'batch_size': 159, 'l2_reg': 0.00520723582975173} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 7 Exception. Config: {'epochs': 94, 'learning_rate': 0.00013761160265857273, 'batch_size': 842, 'l2_reg': 0.0030960913018369817} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 8 Exception. Config: {'epochs': 66, 'learning_rate': 0.00020471937258399162, 'batch_size': 425, 'l2_reg': 0.007263586518123179} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 9 Exception. Config: {'epochs': 33, 'learning_rate': 0.00029767556579056133, 'batch_size': 684, 'l2_reg': 0.0019679731867115755} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 10 Exception. Config: {'epochs': 66, 'learning_rate': 0.0006752851064290628, 'batch_size': 791, 'l2_reg': 0.008092909470287003} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 11 Exception. Config: {'epochs': 14, 'learning_rate': 0.0005767299908810491, 'batch_size': 956, 'l2_reg': 0.0011341212595635023} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 12 Exception. Config: {'epochs': 52, 'learning_rate': 0.0007426741011497909, 'batch_size': 947, 'l2_reg': 0.008698792103429926} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 13 Exception. Config: {'epochs': 11, 'learning_rate': 0.00026099180229504363, 'batch_size': 578, 'l2_reg': 0.0075471942361770815} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 14 Exception. Config: {'epochs': 22, 'learning_rate': 0.0006199981628672495, 'batch_size': 781, 'l2_reg': 0.004740552646537434} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 15 Exception. Config: {'epochs': 45, 'learning_rate': 7.057822587878134e-05, 'batch_size': 988, 'l2_reg': 0.009433281268441248} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 16 Exception. Config: {'epochs': 83, 'learning_rate': 0.0008961130419644856, 'batch_size': 215, 'l2_reg': 0.0054842293936154096} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 17 Exception. Config: {'epochs': 70, 'learning_rate': 0.0009493472793362693, 'batch_size': 732, 'l2_reg': 0.009417384343558549} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 18 Exception. Config: {'epochs': 12, 'learning_rate': 3.5285061180487175e-05, 'batch_size': 507, 'l2_reg': 0.004399165710224585} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 19 Exception. Config: {'epochs': 85, 'learning_rate': 0.0009208933943652872, 'batch_size': 979, 'l2_reg': 0.006611155221951176} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 20 Exception. Config: {'epochs': 14, 'learning_rate': 0.00024986172857576145, 'batch_size': 958, 'l2_reg': 0.001643236399152767} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 21 Exception. Config: {'epochs': 35, 'learning_rate': 0.00038727967135238176, 'batch_size': 684, 'l2_reg': 0.008547568685600306} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 22 Exception. Config: {'epochs': 22, 'learning_rate': 0.00044972993067931384, 'batch_size': 904, 'l2_reg': 0.009180708428691285} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 23 Exception. Config: {'epochs': 74, 'learning_rate': 0.0008953039218403109, 'batch_size': 756, 'l2_reg': 0.009983424964644138} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 24 Exception. Config: {'epochs': 49, 'learning_rate': 0.00021522292639475718, 'batch_size': 469, 'l2_reg': 0.0025193305470551527} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 25 Exception. Config: {'epochs': 12, 'learning_rate': 4.777470495626658e-05, 'batch_size': 785, 'l2_reg': 0.0011182073751292562} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 26 Exception. Config: {'epochs': 82, 'learning_rate': 0.0008350796656069583, 'batch_size': 621, 'l2_reg': 0.009124064838839308} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 27 Exception. Config: {'epochs': 84, 'learning_rate': 0.0006289703894064663, 'batch_size': 617, 'l2_reg': 0.004919822615935571} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 28 Exception. Config: {'epochs': 90, 'learning_rate': 0.000696001923533869, 'batch_size': 755, 'l2_reg': 0.0025556606012562275} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 29 Exception. Config: {'epochs': 87, 'learning_rate': 9.348054222231301e-05, 'batch_size': 175, 'l2_reg': 0.003717298149063387} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization
+SearchBayesianSkopt: Config 0 Exception. Config: {'epochs': 33, 'learning_rate': 0.0003501053526743579, 'batch_size': 296, 'l2_reg': 0.009485586456565403} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'epochs': 89, 'learning_rate': 0.0007779290313246279, 'batch_size': 200, 'l2_reg': 0.0033461143848047005} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 2 Exception. Config: {'epochs': 80, 'learning_rate': 0.0008597468768533206, 'batch_size': 527, 'l2_reg': 0.003587001773350606} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 3 Exception. Config: {'epochs': 66, 'learning_rate': 0.0007784098641608603, 'batch_size': 581, 'l2_reg': 0.000141550272097358} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 4 Exception. Config: {'epochs': 60, 'learning_rate': 0.00016459181754687496, 'batch_size': 752, 'l2_reg': 0.0008501255555801138} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 5 Exception. Config: {'epochs': 41, 'learning_rate': 0.0005975627877409826, 'batch_size': 141, 'l2_reg': 0.0035667566248158713} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 6 Exception. Config: {'epochs': 29, 'learning_rate': 0.00043039212068428557, 'batch_size': 637, 'l2_reg': 0.006910339524184655} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 7 Exception. Config: {'epochs': 22, 'learning_rate': 0.00035913442932264834, 'batch_size': 459, 'l2_reg': 0.0018163094955249886} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 8 Exception. Config: {'epochs': 68, 'learning_rate': 0.0006700116491705102, 'batch_size': 500, 'l2_reg': 0.005276130837067586} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 9 Exception. Config: {'epochs': 64, 'learning_rate': 0.00045628021106304556, 'batch_size': 884, 'l2_reg': 0.007279013572614467} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 10 Exception. Config: {'epochs': 64, 'learning_rate': 0.0003224383320655503, 'batch_size': 937, 'l2_reg': 0.00992321926506725} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 11 Exception. Config: {'epochs': 12, 'learning_rate': 0.0003004369695925753, 'batch_size': 878, 'l2_reg': 0.0006497542110149433} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 12 Exception. Config: {'epochs': 14, 'learning_rate': 0.0007448110922359168, 'batch_size': 826, 'l2_reg': 0.00020086958887635117} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 13 Exception. Config: {'epochs': 64, 'learning_rate': 0.0009750706513667768, 'batch_size': 619, 'l2_reg': 0.007409883974946664} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 14 Exception. Config: {'epochs': 55, 'learning_rate': 1.1766522767901008e-05, 'batch_size': 728, 'l2_reg': 0.007396896701067} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 15 Exception. Config: {'epochs': 52, 'learning_rate': 0.0008064325044790949, 'batch_size': 893, 'l2_reg': 0.005581813244258765} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 16 Exception. Config: {'epochs': 35, 'learning_rate': 0.00043607322853918187, 'batch_size': 490, 'l2_reg': 0.002481524174703069} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 17 Exception. Config: {'epochs': 16, 'learning_rate': 4.224583335883048e-05, 'batch_size': 193, 'l2_reg': 0.000631048576495647} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 18 Exception. Config: {'epochs': 86, 'learning_rate': 0.0009794750932409343, 'batch_size': 367, 'l2_reg': 0.008486524386559096} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 19 Exception. Config: {'epochs': 83, 'learning_rate': 0.00040414362506790546, 'batch_size': 272, 'l2_reg': 0.0031818785471890766} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 20 Exception. Config: {'epochs': 50, 'learning_rate': 0.00034431227773115745, 'batch_size': 133, 'l2_reg': 0.0011605204906571882} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 21 Exception. Config: {'epochs': 23, 'learning_rate': 0.0007060382967060614, 'batch_size': 371, 'l2_reg': 0.0045131866909898415} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 22 Exception. Config: {'epochs': 34, 'learning_rate': 8.865013435313907e-05, 'batch_size': 465, 'l2_reg': 0.007312966980420411} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 23 Exception. Config: {'epochs': 42, 'learning_rate': 0.0006244541467348149, 'batch_size': 250, 'l2_reg': 0.0016203712937884465} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 24 Exception. Config: {'epochs': 87, 'learning_rate': 0.0009456213623094171, 'batch_size': 742, 'l2_reg': 0.009048379370766689} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 25 Exception. Config: {'epochs': 65, 'learning_rate': 8.384771113112636e-05, 'batch_size': 955, 'l2_reg': 0.0025622853558037832} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 26 Exception. Config: {'epochs': 55, 'learning_rate': 0.00024373571064808652, 'batch_size': 478, 'l2_reg': 0.008997114891727017} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 27 Exception. Config: {'epochs': 11, 'learning_rate': 0.0007045924756595291, 'batch_size': 771, 'l2_reg': 0.00528932626457789} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 28 Exception. Config: {'epochs': 56, 'learning_rate': 0.0002580653418718846, 'batch_size': 947, 'l2_reg': 0.001993162217090832} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 29 Exception. Config: {'epochs': 28, 'learning_rate': 0.00011634224591259773, 'batch_size': 402, 'l2_reg': 0.0015440675435963245} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization
+SearchBayesianSkopt: Config 0 Exception. Config: {'epochs': 37, 'learning_rate': 0.00042840677978066863, 'batch_size': 906, 'l2_reg': 0.007300511809274324} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'epochs': 52, 'learning_rate': 0.0008237765982381979, 'batch_size': 618, 'l2_reg': 0.0044015002878652065} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 2 Exception. Config: {'epochs': 61, 'learning_rate': 0.0006659430587678502, 'batch_size': 54, 'l2_reg': 0.006735828233544561} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 3 Exception. Config: {'epochs': 15, 'learning_rate': 0.0004744298227493364, 'batch_size': 468, 'l2_reg': 0.007491106599693431} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 4 Exception. Config: {'epochs': 65, 'learning_rate': 0.0006752318579136623, 'batch_size': 796, 'l2_reg': 0.0003954087338574374} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 5 Exception. Config: {'epochs': 79, 'learning_rate': 0.0009099126564277671, 'batch_size': 392, 'l2_reg': 0.0009179069943765662} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 6 Exception. Config: {'epochs': 25, 'learning_rate': 6.530629313109569e-05, 'batch_size': 788, 'l2_reg': 0.00665329281835686} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 7 Exception. Config: {'epochs': 85, 'learning_rate': 8.143178210314248e-05, 'batch_size': 564, 'l2_reg': 0.00936266982290739} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 8 Exception. Config: {'epochs': 11, 'learning_rate': 0.00039023137069378393, 'batch_size': 96, 'l2_reg': 0.00954968982615498} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 9 Exception. Config: {'epochs': 44, 'learning_rate': 0.0008792627741213741, 'batch_size': 630, 'l2_reg': 0.005862933454365548} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 10 Exception. Config: {'epochs': 31, 'learning_rate': 0.0006346439856628833, 'batch_size': 335, 'l2_reg': 0.0010358392546287835} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 11 Exception. Config: {'epochs': 36, 'learning_rate': 0.0005317165810924383, 'batch_size': 848, 'l2_reg': 0.001835348530707837} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 12 Exception. Config: {'epochs': 72, 'learning_rate': 0.0009332307937354752, 'batch_size': 885, 'l2_reg': 0.006203263890449259} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 13 Exception. Config: {'epochs': 91, 'learning_rate': 0.000590886051790144, 'batch_size': 931, 'l2_reg': 0.003384085243798274} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 14 Exception. Config: {'epochs': 61, 'learning_rate': 2.6339482838245636e-05, 'batch_size': 321, 'l2_reg': 0.0024511160192182855} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 15 Exception. Config: {'epochs': 47, 'learning_rate': 3.9900588058658085e-05, 'batch_size': 172, 'l2_reg': 0.0002777076762247363} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 16 Exception. Config: {'epochs': 59, 'learning_rate': 3.183400603606836e-05, 'batch_size': 560, 'l2_reg': 0.005388508758061348} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 17 Exception. Config: {'epochs': 36, 'learning_rate': 0.0003524794871888509, 'batch_size': 240, 'l2_reg': 0.009892134150146262} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 18 Exception. Config: {'epochs': 84, 'learning_rate': 0.00029588616021661713, 'batch_size': 754, 'l2_reg': 0.005627229486073745} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 19 Exception. Config: {'epochs': 11, 'learning_rate': 0.0009513201743206653, 'batch_size': 40, 'l2_reg': 0.008632291202982501} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 20 Exception. Config: {'epochs': 81, 'learning_rate': 0.0002820407056108903, 'batch_size': 313, 'l2_reg': 0.005977723777753671} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 21 Exception. Config: {'epochs': 11, 'learning_rate': 0.00028263509490890793, 'batch_size': 412, 'l2_reg': 0.0012857714754450102} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 22 Exception. Config: {'epochs': 71, 'learning_rate': 0.00039200713302118173, 'batch_size': 503, 'l2_reg': 0.005485122740768401} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 23 Exception. Config: {'epochs': 70, 'learning_rate': 0.0009766270669814947, 'batch_size': 642, 'l2_reg': 0.004561918461443941} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 24 Exception. Config: {'epochs': 98, 'learning_rate': 0.0008861013900631908, 'batch_size': 820, 'l2_reg': 0.004699325786498134} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 25 Exception. Config: {'epochs': 56, 'learning_rate': 0.00015549114949871178, 'batch_size': 336, 'l2_reg': 0.007789577603447388} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 26 Exception. Config: {'epochs': 27, 'learning_rate': 0.0002315515801166289, 'batch_size': 401, 'l2_reg': 0.004039064998556793} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 27 Exception. Config: {'epochs': 42, 'learning_rate': 0.00023479904050589524, 'batch_size': 173, 'l2_reg': 0.0036288153135945753} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 28 Exception. Config: {'epochs': 64, 'learning_rate': 0.0009394762413747862, 'batch_size': 350, 'l2_reg': 0.006179501223216827} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Config 29 Exception. Config: {'epochs': 79, 'learning_rate': 0.0003055098364136984, 'batch_size': 195, 'l2_reg': 0.003861243075336172} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Neural/MultVAERecommender.py", line 296, in fit
+    tf.compat.v1.reset_default_graph()
+NameError: name 'tf' is not defined
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization

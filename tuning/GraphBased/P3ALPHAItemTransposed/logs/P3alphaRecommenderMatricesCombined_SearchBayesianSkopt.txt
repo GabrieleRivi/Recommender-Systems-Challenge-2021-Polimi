@@ -1,0 +1,229 @@
+SearchBayesianSkopt: Config 0 Exception. Config: {'topK': 169, 'alpha': 0.6309347830943698, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 0 Exception. Config: {'topK': 203, 'alpha': 0.6642092088949888, 'implicit': True, 'normalize_similarity': False} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'topK': 448, 'alpha': 0.6749920138871798, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 2 Exception. Config: {'topK': 490, 'alpha': 0.8659027810336604, 'implicit': True, 'normalize_similarity': False} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 3 Exception. Config: {'topK': 349, 'alpha': 0.5968029304353557, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 4 Exception. Config: {'topK': 83, 'alpha': 0.1911664813372781, 'implicit': True, 'normalize_similarity': False} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 5 Exception. Config: {'topK': 434, 'alpha': 0.1832549127749538, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 6 Exception. Config: {'topK': 177, 'alpha': 0.20418643570107825, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 7 Exception. Config: {'topK': 385, 'alpha': 0.49353815416524915, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 8 Exception. Config: {'topK': 315, 'alpha': 0.27965162747131045, 'implicit': True, 'normalize_similarity': True} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 9 Exception. Config: {'topK': 36, 'alpha': 0.9939067535744217, 'implicit': True, 'normalize_similarity': False} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Config 10 Exception. Config: {'topK': 376, 'alpha': 0.8213361463638855, 'implicit': True, 'normalize_similarity': False} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 336, in _evaluate_on_validation
+    result_df, _ = self.evaluator_validation.evaluateRecommender(recommender_instance)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 271, in evaluateRecommender
+    results_dict = self._run_evaluation_on_selected_users(recommender_object, self.users_to_evaluate)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Evaluation/Evaluator.py", line 481, in _run_evaluation_on_selected_users
+    recommended_items_batch_list, scores_batch = recommender_object.recommend(test_user_batch_array,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseRecommender.py", line 147, in recommend
+    scores_batch = self._compute_item_score(user_id_array, items_to_compute=items_to_compute)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/Base/BaseSimilarityMatrixRecommender.py", line 90, in _compute_item_score
+    item_scores = user_profile_array.dot(self.W_sparse).toarray()
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/gabriele/opt/anaconda3/envs/RecSys/lib/python3.8/site-packages/scipy/sparse/base.py", line 479, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization

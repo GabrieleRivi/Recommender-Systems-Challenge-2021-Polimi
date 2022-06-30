@@ -1,0 +1,109 @@
+SearchBayesianSkopt: Config 0 Exception. Config: {'alpha': 0.12384856791428314, 'beta': 0.9430559864427502, 'gamma': 0.26872804136104816} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'alpha': 0.32344426523409614, 'beta': 0.00471447820175941, 'gamma': 0.9507825421462259} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 2 Exception. Config: {'alpha': 0.7930797241776395, 'beta': 0.9030131730877748, 'gamma': 0.22578753266025647} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 3 Exception. Config: {'alpha': 0.014159797855074267, 'beta': 0.4802211322817769, 'gamma': 0.5633104551870546} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 4 Exception. Config: {'alpha': 0.36786443999653146, 'beta': 0.1891378969479554, 'gamma': 0.9683108296863796} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 5 Exception. Config: {'alpha': 0.8235795856865322, 'beta': 0.245619014741776, 'gamma': 0.8044032622476945} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 6 Exception. Config: {'alpha': 0.33734308478511793, 'beta': 0.01205173652414571, 'gamma': 0.5579919632724553} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 7 Exception. Config: {'alpha': 0.7239350713723663, 'beta': 0.2878143785538943, 'gamma': 0.2435367444577104} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 8 Exception. Config: {'alpha': 0.2181208458850435, 'beta': 0.3727799419927679, 'gamma': 0.3689767467552944} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 9 Exception. Config: {'alpha': 0.9071317433446326, 'beta': 0.510572400567398, 'gamma': 0.2076150185269811} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 10 Exception. Config: {'alpha': 0.7058389813931354, 'beta': 0.7043557556176496, 'gamma': 0.6395289001546233} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Config 11 Exception. Config: {'alpha': 0.7698059155138388, 'beta': 0.03321407451261294, 'gamma': 0.40687089277537314} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+TypeError: fit() got an unexpected keyword argument 'alpha'
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization

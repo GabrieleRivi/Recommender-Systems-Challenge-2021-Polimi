@@ -1,0 +1,25 @@
+SearchBayesianSkopt: Config 0 Exception. Config: {'epochs': 98, 'topK': 177, 'lambda_i': 0.00035144306985872184, 'lambda_j': 0.008799755404700309} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'epochs': 66, 'topK': 153, 'lambda_i': 0.0076118940375064495, 'lambda_j': 0.00971323627281061} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization

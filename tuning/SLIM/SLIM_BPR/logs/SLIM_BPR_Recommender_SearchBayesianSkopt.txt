@@ -1,0 +1,209 @@
+SearchBayesianSkopt: New best config found. Config 0: {'epochs': 73, 'topK': 268, 'lambda_i': 0.005876627531955816, 'lambda_j': 0.002798938825242705} - results: PRECISION: 0.1808993, PRECISION_RECALL_MIN_DEN: 0.1833244, RECALL: 0.0479682, MAP: 0.0870147, MAP_MIN_DEN: 0.0883093, MRR: 0.4103177, NDCG: 0.1940953, F1: 0.0758291, HIT_RATE: 0.8215360, ARHR_ALL_HITS: 0.5950422, NOVELTY: 0.0051622, AVERAGE_POPULARITY: 0.7408710, DIVERSITY_MEAN_INTER_LIST: 0.6342844, DIVERSITY_HERFINDAHL: 0.9634238, COVERAGE_ITEM: 0.0173875, COVERAGE_ITEM_CORRECT: 0.0069218, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8205128, DIVERSITY_GINI: 0.0014894, SHANNON_ENTROPY: 5.0429451, RATIO_DIVERSITY_HERFINDAHL: 0.9637957, RATIO_DIVERSITY_GINI: 0.0060070, RATIO_SHANNON_ENTROPY: 0.4070123, RATIO_AVERAGE_POPULARITY: 3.6689573, RATIO_NOVELTY: 0.0268937, 
+SearchBayesianSkopt: Config evaluated with evaluator_test. Config: {'epochs': 73, 'topK': 268, 'lambda_i': 0.005876627531955816, 'lambda_j': 0.002798938825242705} - results:
+CUTOFF: 10 - PRECISION: 0.2136360, PRECISION_RECALL_MIN_DEN: 0.2154900, RECALL: 0.0485278, MAP: 0.1082563, MAP_MIN_DEN: 0.1091628, MRR: 0.4623659, NDCG: 0.2287903, F1: 0.0790902, HIT_RATE: 0.8720018, ARHR_ALL_HITS: 0.7042268, NOVELTY: 0.0051622, AVERAGE_POPULARITY: 0.7408994, DIVERSITY_MEAN_INTER_LIST: 0.6342661, DIVERSITY_HERFINDAHL: 0.9634220, COVERAGE_ITEM: 0.0169445, COVERAGE_ITEM_CORRECT: 0.0069218, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8709158, DIVERSITY_GINI: 0.0014882, SHANNON_ENTROPY: 5.0426205, RATIO_DIVERSITY_HERFINDAHL: 0.9637938, RATIO_DIVERSITY_GINI: 0.0060022, RATIO_SHANNON_ENTROPY: 0.4069861, RATIO_AVERAGE_POPULARITY: 3.6690983, RATIO_NOVELTY: 0.0268933, 
+
+SearchBayesianSkopt: Config 1 is suboptimal. Config: {'epochs': 51, 'topK': 331, 'lambda_i': 0.005911131616467067, 'lambda_j': 0.005548096694541481} - results: PRECISION: 0.1805179, PRECISION_RECALL_MIN_DEN: 0.1831107, RECALL: 0.0481560, MAP: 0.0863466, MAP_MIN_DEN: 0.0875846, MRR: 0.4075484, NDCG: 0.1931671, F1: 0.0760299, HIT_RATE: 0.8204357, ARHR_ALL_HITS: 0.5909114, NOVELTY: 0.0051604, AVERAGE_POPULARITY: 0.7419368, DIVERSITY_MEAN_INTER_LIST: 0.6309325, DIVERSITY_HERFINDAHL: 0.9630886, COVERAGE_ITEM: 0.0152832, COVERAGE_ITEM_CORRECT: 0.0063126, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8194139, DIVERSITY_GINI: 0.0014594, SHANNON_ENTROPY: 5.0181371, RATIO_DIVERSITY_HERFINDAHL: 0.9634604, RATIO_DIVERSITY_GINI: 0.0058858, RATIO_SHANNON_ENTROPY: 0.4050101, RATIO_AVERAGE_POPULARITY: 3.6742357, RATIO_NOVELTY: 0.0268839, 
+SearchBayesianSkopt: New best config found. Config 2: {'epochs': 72, 'topK': 96, 'lambda_i': 0.006137795154986029, 'lambda_j': 0.00523582452420034} - results: PRECISION: 0.1863493, PRECISION_RECALL_MIN_DEN: 0.1890600, RECALL: 0.0502097, MAP: 0.0886918, MAP_MIN_DEN: 0.0900339, MRR: 0.4108163, NDCG: 0.1980221, F1: 0.0791054, HIT_RATE: 0.8342991, ARHR_ALL_HITS: 0.6018140, NOVELTY: 0.0051776, AVERAGE_POPULARITY: 0.7290567, DIVERSITY_MEAN_INTER_LIST: 0.6825746, DIVERSITY_HERFINDAHL: 0.9682525, COVERAGE_ITEM: 0.0215959, COVERAGE_ITEM_CORRECT: 0.0098012, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8332601, DIVERSITY_GINI: 0.0018004, SHANNON_ENTROPY: 5.3549706, RATIO_DIVERSITY_HERFINDAHL: 0.9686262, RATIO_DIVERSITY_GINI: 0.0072613, RATIO_SHANNON_ENTROPY: 0.4321956, RATIO_AVERAGE_POPULARITY: 3.6104507, RATIO_NOVELTY: 0.0269738, 
+SearchBayesianSkopt: Config evaluated with evaluator_test. Config: {'epochs': 72, 'topK': 96, 'lambda_i': 0.006137795154986029, 'lambda_j': 0.00523582452420034} - results:
+CUTOFF: 10 - PRECISION: 0.2197022, PRECISION_RECALL_MIN_DEN: 0.2215642, RECALL: 0.0503953, MAP: 0.1105662, MAP_MIN_DEN: 0.1114579, MRR: 0.4628725, NDCG: 0.2330287, F1: 0.0819849, HIT_RATE: 0.8791168, ARHR_ALL_HITS: 0.7117845, NOVELTY: 0.0051775, AVERAGE_POPULARITY: 0.7291111, DIVERSITY_MEAN_INTER_LIST: 0.6825301, DIVERSITY_HERFINDAHL: 0.9682480, COVERAGE_ITEM: 0.0210975, COVERAGE_ITEM_CORRECT: 0.0096351, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8780220, DIVERSITY_GINI: 0.0017971, SHANNON_ENTROPY: 5.3538538, RATIO_DIVERSITY_HERFINDAHL: 0.9686217, RATIO_DIVERSITY_GINI: 0.0072480, RATIO_SHANNON_ENTROPY: 0.4321055, RATIO_AVERAGE_POPULARITY: 3.6107198, RATIO_NOVELTY: 0.0269731, 
+
+SearchBayesianSkopt: Config 3 is suboptimal. Config: {'epochs': 91, 'topK': 500, 'lambda_i': 0.002437762229064434, 'lambda_j': 0.001413991294964888} - results: PRECISION: 0.1789335, PRECISION_RECALL_MIN_DEN: 0.1813534, RECALL: 0.0473777, MAP: 0.0858762, MAP_MIN_DEN: 0.0871002, MRR: 0.4056513, NDCG: 0.1918809, F1: 0.0749186, HIT_RATE: 0.8180151, ARHR_ALL_HITS: 0.5880755, NOVELTY: 0.0051552, AVERAGE_POPULARITY: 0.7455071, DIVERSITY_MEAN_INTER_LIST: 0.6200171, DIVERSITY_HERFINDAHL: 0.9619972, COVERAGE_ITEM: 0.0134559, COVERAGE_ITEM_CORRECT: 0.0056482, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8169963, DIVERSITY_GINI: 0.0014046, SHANNON_ENTROPY: 4.9447467, RATIO_DIVERSITY_HERFINDAHL: 0.9623685, RATIO_DIVERSITY_GINI: 0.0056650, RATIO_SHANNON_ENTROPY: 0.3990868, RATIO_AVERAGE_POPULARITY: 3.6919167, RATIO_NOVELTY: 0.0268570, 
+SearchBayesianSkopt: Config 4 is suboptimal. Config: {'epochs': 13, 'topK': 10, 'lambda_i': 0.004933813762423179, 'lambda_j': 0.0037904284984397003} - results: PRECISION: 0.1781853, PRECISION_RECALL_MIN_DEN: 0.1805204, RECALL: 0.0470813, MAP: 0.0828536, MAP_MIN_DEN: 0.0839767, MRR: 0.3948773, NDCG: 0.1881067, F1: 0.0744824, HIT_RATE: 0.8252769, ARHR_ALL_HITS: 0.5698198, NOVELTY: 0.0051928, AVERAGE_POPULARITY: 0.7207762, DIVERSITY_MEAN_INTER_LIST: 0.6833570, DIVERSITY_HERFINDAHL: 0.9683307, COVERAGE_ITEM: 0.0286284, COVERAGE_ITEM_CORRECT: 0.0081400, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8242491, DIVERSITY_GINI: 0.0018256, SHANNON_ENTROPY: 5.3602465, RATIO_DIVERSITY_HERFINDAHL: 0.9687045, RATIO_DIVERSITY_GINI: 0.0073627, RATIO_SHANNON_ENTROPY: 0.4326214, RATIO_AVERAGE_POPULARITY: 3.5694437, RATIO_NOVELTY: 0.0270531, 
+SearchBayesianSkopt: Search complete. Best config is 2: {'epochs': 72, 'topK': 96, 'lambda_i': 0.006137795154986029, 'lambda_j': 0.00523582452420034}
+SearchBayesianSkopt: New best config found. Config 0: {'epochs': 65, 'topK': 356, 'lambda_i': 0.0009034901032976431, 'lambda_j': 0.007902763265520554} - results: PRECISION: 0.1796110, PRECISION_RECALL_MIN_DEN: 0.1822072, RECALL: 0.0479583, MAP: 0.0861760, MAP_MIN_DEN: 0.0874045, MRR: 0.4111562, NDCG: 0.1930634, F1: 0.0757030, HIT_RATE: 0.8280367, ARHR_ALL_HITS: 0.5926389, NOVELTY: 0.0051586, AVERAGE_POPULARITY: 0.7516929, DIVERSITY_MEAN_INTER_LIST: 0.6252347, DIVERSITY_HERFINDAHL: 0.9625189, COVERAGE_ITEM: 0.0164461, COVERAGE_ITEM_CORRECT: 0.0062573, COVERAGE_USER: 0.9981685, COVERAGE_USER_CORRECT: 0.8265201, DIVERSITY_GINI: 0.0014505, SHANNON_ENTROPY: 4.9953564, RATIO_DIVERSITY_HERFINDAHL: 0.9628903, RATIO_DIVERSITY_GINI: 0.0058503, RATIO_SHANNON_ENTROPY: 0.4031674, RATIO_AVERAGE_POPULARITY: 3.6826969, RATIO_NOVELTY: 0.0268746, 
+SearchBayesianSkopt: Config evaluated with evaluator_test. Config: {'epochs': 65, 'topK': 356, 'lambda_i': 0.0009034901032976431, 'lambda_j': 0.007902763265520554} - results:
+CUTOFF: 10 - PRECISION: 0.2136067, PRECISION_RECALL_MIN_DEN: 0.2157254, RECALL: 0.0485951, MAP: 0.1084765, MAP_MIN_DEN: 0.1094881, MRR: 0.4647777, NDCG: 0.2291180, F1: 0.0791775, HIT_RATE: 0.8703147, ARHR_ALL_HITS: 0.7058442, NOVELTY: 0.0051585, AVERAGE_POPULARITY: 0.7517602, DIVERSITY_MEAN_INTER_LIST: 0.6251197, DIVERSITY_HERFINDAHL: 0.9625074, COVERAGE_ITEM: 0.0152279, COVERAGE_ITEM_CORRECT: 0.0057589, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8692308, DIVERSITY_GINI: 0.0014460, SHANNON_ENTROPY: 4.9936257, RATIO_DIVERSITY_HERFINDAHL: 0.9628788, RATIO_DIVERSITY_GINI: 0.0058320, RATIO_SHANNON_ENTROPY: 0.4030277, RATIO_AVERAGE_POPULARITY: 3.6830266, RATIO_NOVELTY: 0.0268738, 
+
+########## SECOND TUNING STARTED BY ACCIDENT ##########
+SearchBayesianSkopt: New best config found. Config 1: {'epochs': 89, 'topK': 189, 'lambda_i': 0.00030289594345837503, 'lambda_j': 0.0006694755748475811} - results: PRECISION: 0.1818569, PRECISION_RECALL_MIN_DEN: 0.1845183, RECALL: 0.0488340, MAP: 0.0870511, MAP_MIN_DEN: 0.0882769, MRR: 0.4123751, NDCG: 0.1948544, F1: 0.0769931, HIT_RATE: 0.8334679, ARHR_ALL_HITS: 0.5966291, NOVELTY: 0.0051662, AVERAGE_POPULARITY: 0.7462988, DIVERSITY_MEAN_INTER_LIST: 0.6460127, DIVERSITY_HERFINDAHL: 0.9645965, COVERAGE_ITEM: 0.0196578, COVERAGE_ITEM_CORRECT: 0.0071986, COVERAGE_USER: 0.9981685, COVERAGE_USER_CORRECT: 0.8319414, DIVERSITY_GINI: 0.0015648, SHANNON_ENTROPY: 5.1191120, RATIO_DIVERSITY_HERFINDAHL: 0.9649687, RATIO_DIVERSITY_GINI: 0.0063113, RATIO_SHANNON_ENTROPY: 0.4131555, RATIO_AVERAGE_POPULARITY: 3.6562699, RATIO_NOVELTY: 0.0269138, 
+SearchBayesianSkopt: Config evaluated with evaluator_test. Config: {'epochs': 89, 'topK': 189, 'lambda_i': 0.00030289594345837503, 'lambda_j': 0.0006694755748475811} - results:
+CUTOFF: 10 - PRECISION: 0.2163867, PRECISION_RECALL_MIN_DEN: 0.2185972, RECALL: 0.0496273, MAP: 0.1098488, MAP_MIN_DEN: 0.1109180, MRR: 0.4663925, NDCG: 0.2315308, F1: 0.0807378, HIT_RATE: 0.8745691, ARHR_ALL_HITS: 0.7114765, NOVELTY: 0.0051660, AVERAGE_POPULARITY: 0.7463995, DIVERSITY_MEAN_INTER_LIST: 0.6458434, DIVERSITY_HERFINDAHL: 0.9645796, COVERAGE_ITEM: 0.0183288, COVERAGE_ITEM_CORRECT: 0.0073647, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8734799, DIVERSITY_GINI: 0.0015589, SHANNON_ENTROPY: 5.1171948, RATIO_DIVERSITY_HERFINDAHL: 0.9649518, RATIO_DIVERSITY_GINI: 0.0062874, RATIO_SHANNON_ENTROPY: 0.4130008, RATIO_AVERAGE_POPULARITY: 3.6567632, RATIO_NOVELTY: 0.0269129, 
+
+SearchBayesianSkopt: Config 2 is suboptimal. Config: {'epochs': 25, 'topK': 342, 'lambda_i': 0.0009304840153561804, 'lambda_j': 0.0011223818717042606} - results: PRECISION: 0.1795303, PRECISION_RECALL_MIN_DEN: 0.1821210, RECALL: 0.0479051, MAP: 0.0860488, MAP_MIN_DEN: 0.0874458, MRR: 0.4122725, NDCG: 0.1931123, F1: 0.0756296, HIT_RATE: 0.8281101, ARHR_ALL_HITS: 0.5927441, NOVELTY: 0.0051592, AVERAGE_POPULARITY: 0.7511669, DIVERSITY_MEAN_INTER_LIST: 0.6266738, DIVERSITY_HERFINDAHL: 0.9626628, COVERAGE_ITEM: 0.0170552, COVERAGE_ITEM_CORRECT: 0.0057589, COVERAGE_USER: 0.9981685, COVERAGE_USER_CORRECT: 0.8265934, DIVERSITY_GINI: 0.0014511, SHANNON_ENTROPY: 5.0033334, RATIO_DIVERSITY_HERFINDAHL: 0.9630342, RATIO_DIVERSITY_GINI: 0.0058527, RATIO_SHANNON_ENTROPY: 0.4038112, RATIO_AVERAGE_POPULARITY: 3.6801199, RATIO_NOVELTY: 0.0268778, 
+SearchBayesianSkopt: New best config found. Config 3: {'epochs': 87, 'topK': 59, 'lambda_i': 0.0007015025954905013, 'lambda_j': 0.003780783741332984} - results: PRECISION: 0.1855560, PRECISION_RECALL_MIN_DEN: 0.1879849, RECALL: 0.0497627, MAP: 0.0887423, MAP_MIN_DEN: 0.0898815, MRR: 0.4140836, NDCG: 0.1977242, F1: 0.0784789, HIT_RATE: 0.8367706, ARHR_ALL_HITS: 0.6032375, NOVELTY: 0.0051884, AVERAGE_POPULARITY: 0.7280487, DIVERSITY_MEAN_INTER_LIST: 0.7166788, DIVERSITY_HERFINDAHL: 0.9716626, COVERAGE_ITEM: 0.0213190, COVERAGE_ITEM_CORRECT: 0.0087491, COVERAGE_USER: 0.9981685, COVERAGE_USER_CORRECT: 0.8352381, DIVERSITY_GINI: 0.0019715, SHANNON_ENTROPY: 5.5131122, RATIO_DIVERSITY_HERFINDAHL: 0.9720376, RATIO_DIVERSITY_GINI: 0.0079515, RATIO_SHANNON_ENTROPY: 0.4449546, RATIO_AVERAGE_POPULARITY: 3.5668592, RATIO_NOVELTY: 0.0270299, 
+SearchBayesianSkopt: Config evaluated with evaluator_test. Config: {'epochs': 87, 'topK': 59, 'lambda_i': 0.0007015025954905013, 'lambda_j': 0.003780783741332984} - results:
+CUTOFF: 10 - PRECISION: 0.2193354, PRECISION_RECALL_MIN_DEN: 0.2215514, RECALL: 0.0504938, MAP: 0.1108715, MAP_MIN_DEN: 0.1117915, MRR: 0.4660626, NDCG: 0.2335312, F1: 0.0820896, HIT_RATE: 0.8797770, ARHR_ALL_HITS: 0.7151370, NOVELTY: 0.0051883, AVERAGE_POPULARITY: 0.7280935, DIVERSITY_MEAN_INTER_LIST: 0.7166853, DIVERSITY_HERFINDAHL: 0.9716633, COVERAGE_ITEM: 0.0198239, COVERAGE_ITEM_CORRECT: 0.0091921, COVERAGE_USER: 0.9987546, COVERAGE_USER_CORRECT: 0.8786813, DIVERSITY_GINI: 0.0019643, SHANNON_ENTROPY: 5.5112515, RATIO_DIVERSITY_HERFINDAHL: 0.9720382, RATIO_DIVERSITY_GINI: 0.0079225, RATIO_SHANNON_ENTROPY: 0.4448045, RATIO_AVERAGE_POPULARITY: 3.5670784, RATIO_NOVELTY: 0.0270294, 
+
+SearchBayesianSkopt: Config 4 is suboptimal. Config: {'epochs': 39, 'topK': 500, 'lambda_i': 0.0061100293436861415, 'lambda_j': 0.00019632818709937121} - results: PRECISION: 0.1770202, PRECISION_RECALL_MIN_DEN: 0.1794412, RECALL: 0.0468339, MAP: 0.0849024, MAP_MIN_DEN: 0.0861950, MRR: 0.4084351, NDCG: 0.1906426, F1: 0.0740710, HIT_RATE: 0.8209174, ARHR_ALL_HITS: 0.5862285, NOVELTY: 0.0051531, AVERAGE_POPULARITY: 0.7556004, DIVERSITY_MEAN_INTER_LIST: 0.6083645, DIVERSITY_HERFINDAHL: 0.9608320, COVERAGE_ITEM: 0.0147849, COVERAGE_ITEM_CORRECT: 0.0050390, COVERAGE_USER: 0.9981685, COVERAGE_USER_CORRECT: 0.8194139, DIVERSITY_GINI: 0.0013755, SHANNON_ENTROPY: 4.9113551, RATIO_DIVERSITY_HERFINDAHL: 0.9612027, RATIO_DIVERSITY_GINI: 0.0055475, RATIO_SHANNON_ENTROPY: 0.3963878, RATIO_AVERAGE_POPULARITY: 3.7018405, RATIO_NOVELTY: 0.0268456, 
+SearchBayesianSkopt: Search complete. Best config is 3: {'epochs': 87, 'topK': 59, 'lambda_i': 0.0007015025954905013, 'lambda_j': 0.003780783741332984}
+SearchBayesianSkopt: Config 0 Exception. Config: {'epochs': 15, 'topK': 184, 'lambda_i': 0.003519019798090839, 'lambda_j': 0.009623353993023349} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 1 Exception. Config: {'epochs': 73, 'topK': 75, 'lambda_i': 0.00792485203254942, 'lambda_j': 0.0084880882738399} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 2 Exception. Config: {'epochs': 38, 'topK': 227, 'lambda_i': 0.004657478492719961, 'lambda_j': 0.00991518649279683} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 3 Exception. Config: {'epochs': 17, 'topK': 384, 'lambda_i': 0.008426150289906162, 'lambda_j': 0.006365202744238121} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 4 Exception. Config: {'epochs': 88, 'topK': 410, 'lambda_i': 0.0059007841076289405, 'lambda_j': 0.006881043426834208} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 5 Exception. Config: {'epochs': 95, 'topK': 68, 'lambda_i': 0.0005512541556674045, 'lambda_j': 0.007660274847124953} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 6 Exception. Config: {'epochs': 19, 'topK': 129, 'lambda_i': 0.006740575093908205, 'lambda_j': 0.007678038905666357} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 7 Exception. Config: {'epochs': 58, 'topK': 468, 'lambda_i': 0.004259155895014259, 'lambda_j': 0.009023709984427744} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 8 Exception. Config: {'epochs': 57, 'topK': 383, 'lambda_i': 0.0014497430475274317, 'lambda_j': 0.00016327367979279944} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 9 Exception. Config: {'epochs': 89, 'topK': 371, 'lambda_i': 0.0020512136089231394, 'lambda_j': 0.005221974157467422} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 10 Exception. Config: {'epochs': 86, 'topK': 457, 'lambda_i': 0.009035198293027333, 'lambda_j': 0.0009396263028625095} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 11 Exception. Config: {'epochs': 98, 'topK': 283, 'lambda_i': 0.00016337640565676853, 'lambda_j': 0.00021072630466367618} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 12 Exception. Config: {'epochs': 68, 'topK': 308, 'lambda_i': 0.002124922168950199, 'lambda_j': 0.007648973306113179} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 13 Exception. Config: {'epochs': 15, 'topK': 169, 'lambda_i': 0.002953302068442911, 'lambda_j': 0.004083617634242996} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Config 14 Exception. Config: {'epochs': 16, 'topK': 125, 'lambda_i': 0.0023255456468911717, 'lambda_j': 0.003951787246459472} - Exception: Traceback (most recent call last):
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 464, in _objective_function
+    result_df, recommender_instance = self._evaluate_on_validation(current_fit_hyperparameters_dict, was_already_evaluated_flag, was_already_evaluated_index)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 332, in _evaluate_on_validation
+    recommender_instance, train_time = self._fit_model(current_fit_hyperparameters)
+  File "/Users/gabriele/PycharmProjects/RecSys/src/HyperparameterTuning/SearchAbstractClass.py", line 304, in _fit_model
+    recommender_instance.fit(*self.recommender_input_args.FIT_POSITIONAL_ARGS,
+  File "/Users/gabriele/PycharmProjects/RecSys/src/Recommenders/SLIM/Cython/SLIM_BPR_Cython.py", line 77, in fit
+    from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+  File "SLIM_BPR_Cython_Epoch.pyx", line 34, in init src.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch
+ModuleNotFoundError: No module named 'src.Recommenders.Recommender_utils'
+
+SearchBayesianSkopt: Search interrupted. No valid config was found during the initial random initialization
