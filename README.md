@@ -13,7 +13,7 @@ Leaderboard final position - 25/72
 ## Final Model
 
 The final model used for the submission, scoring 0.48259 against 0.50966 of the first position, was an hybrid obtained merging two models, RPR Beta and Slim-ElasticNet, then making a linear combination of the scores of this hybrid model with an IALS matrix factorization Recommender.
-
+The final model can be found here ([RPR_hybrid_SLIMElasticnet_Ials](/tuning/Hybrids/RP3HYBRIDSLIME_IALS.ipynb))
 ## Methodology
 
 Most of the models come from the Course-Repository ([src](/src)), and our aim was to find the best scoring model by tuning and combining them with the
